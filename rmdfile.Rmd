@@ -5,15 +5,8 @@ date: '2022-06-03'
 ---
 
 ```{r}
-<<<<<<< HEAD
-drinks <- read_csv("data/drinks.csv"))
-plot(drinks$beer_servings)
-=======
-
 drinks <- read.csv("data/drinks.csv")
 plot(drinks$beer_servings)
-
->>>>>>> 49daa4456db8ee8487e311b08a4dee0510f3b71c
 ```
 
 ```{r}

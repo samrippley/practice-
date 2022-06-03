@@ -1,22 +1,18 @@
 ---
-<<<<<<< HEAD
 title: "Team Excercise"
-=======
-title: "team excersise"
->>>>>>> cb2b78a20fdd771f5e0ea97b528256557f32638b
 output: html_document
 date: '2022-06-03'
 ---
 
 ```{r}
-<<<<<<< HEAD
+drinks <- read.csv("/Users/tajcole/Desktop/R_work/Data Matter/data sets/drinks.csv")
+plot(drinks$beer_servings)
+```
+
+```{r}
 library(gapminder)
 library(ggplot2)
 
 ggplot(data = gapminder, mapping = aes(x = country, y = lifeExp, col = continent)) + geom_line()
-=======
-drinks <- read.csv("/Users/tajcole/Desktop/R_work/Data Matter/data sets/drinks.csv")
-plot(drinks$beer_servings)
->>>>>>> cb2b78a20fdd771f5e0ea97b528256557f32638b
 ```
 

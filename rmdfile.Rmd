@@ -5,7 +5,7 @@ date: '2022-06-03'
 ---
 
 ```{r}
-drinks <- read.csv("/Users/tajcole/practice-/data/drinks.csv")
+drinks <- read_csv("data/drinks.csv"))
 plot(drinks$beer_servings)
 ```
 
